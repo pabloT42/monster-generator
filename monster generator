@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+int main() {
+
+	srand(time(NULL));
+	int num = rand() % 100 + 1;
+	cout << "we generated num " << num << endl;
+
+	if (num < 15) {
+		cout << "a skeleton appeared!" << endl;
+	}
+	else if (num < 20) {
+		cout << "a creeper pops up" << endl;
+	}
+	else if (num < 50) {
+	     cout << "a zombie attacks you" << endl;
+    }
+	else if (num < 75) {
+	     cout << "look out a witch" << endl;
+	}
+	else{
+		cout << "oh no its an enderman" << endl;
+	}
+
+
+}
+
+void monstergen() {
+
+		srand(time(NULL));
+		int num = rand() % 100 + 1;
+		cout << "we generated num " << num << endl;
+
+		if (num < 15) {
+			cout << "a skeleton appeared!" << endl;
+		}
+		else if (num < 20) {
+			cout << "a creeper pops up" << endl;
+		}
+		else if (num < 50) {
+			cout << "a zombie attacks you" << endl;
+		}
+		else if (num < 75) {
+			cout << "look out a witch" << endl;
+		}
+		else {
+			cout << "oh no its an enderman" << endl;
+		}
+
+
+	}
+
